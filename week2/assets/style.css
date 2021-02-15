@@ -11,6 +11,9 @@ body {
 
 header {
     padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgoldenrodyellow;
 }
 
 header h1 {
@@ -42,6 +45,9 @@ header nav ul li {
     border-color: darkslategray;
     border-style: solid;
     border-width: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 h3, p {
@@ -58,11 +64,40 @@ h3 {
 
 p {
     font-size: 24px;
-    text-align: center;
-    padding: 0;
+    text-align: left;
+    padding: 0px;
     margin: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 h3, p {
     display: inline-block;
+}
+
+.about-me {
+    margin: 25px;
+    display: flex;
+}
+
+.picture {
+    background-image: url(assets/images/download.jfif);
+    background-size: cover;
+}
+
+.work-stuff {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    color: navy;
+    background-color: lightgoldenrodyellow;
+    margin: 50px;
+}
+
+.stripes {
+    max-width: 100%;
+    height: auto;
+    object-fit: fill;
 }
